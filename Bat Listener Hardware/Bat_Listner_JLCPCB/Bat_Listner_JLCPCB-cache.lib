@@ -61,6 +61,32 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Capacitor_JLC_100u_T
+#
+DEF Capacitor_JLC_100u_T C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "Capacitor_JLC_100u_T" 350 150 50 H V L CNN
+F2 "CAPPM3528X210N" 350 50 50 H I L CNN
+F3 "" 350 -50 50 H I L CNN
+F4 "AVX 100" 350 -150 50 H I L CNN "Description"
+F5 "2.1" 350 -250 50 H I L CNN "Height"
+F6 "581-TAJB107K006R" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/AVX/TAJB107K006RNJ?qs=fdqkYiOtZpcsxthKdBMg8Q%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "AVX" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "TAJB107K006RNJ" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+F10 "C16133" 0 0 50 H I C CNN "LCSC"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # Capacitor_JLC_1n
 #
 DEF Capacitor_JLC_1n C 0 10 N Y 1 F N
@@ -118,6 +144,28 @@ P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N
 X ~ 1 0 150 110 D 50 50 1 1 P
 X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_JLC_220uF_E
+#
+DEF Capacitor_JLC_220uF_E C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Capacitor_JLC_220uF_E" 10 -80 50 H V L CNN
+F2 "Capacitor_SMD:CP_Elec_6.3x7.7" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "C127327" 0 0 50 H I C CNN "LCSC"
+F5 "16V" 0 0 50 H I C CNN "Rating"
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -182,40 +230,56 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Digital_JLC_CD4042BDR
+# Device_R_POT
 #
-DEF Digital_JLC_CD4042BDR IC 0 30 Y Y 1 F N
-F0 "IC" 1150 300 50 H V L CNN
-F1 "Digital_JLC_CD4042BDR" 1150 200 50 H V L CNN
-F2 "SOIC127P600X175-16N" 1150 100 50 H I L CNN
-F3 "" 1150 0 50 H I L CNN
-F4 "Texas Instruments CD4042BDR, Octal D Type Latch, Transparent, 3  18 V, 16-Pin SOIC" 1150 -100 50 H I L CNN "Description"
-F5 "1.75" 1150 -200 50 H I L CNN "Height"
-F6 "Texas Instruments" 1150 -300 50 H I L CNN "Manufacturer_Name"
-F7 "CD4042BDR" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "CD4042BDR" 1150 -500 50 H I L CNN "Arrow Part Number"
-F9 "https://www.arrow.com/en/products/cd4042bdr/texas-instruments" 1150 -600 50 H I L CNN "Arrow Price/Stock"
-F10 "595-CD4042BDR" 1150 -700 50 H I L CNN "Mouser Part Number"
-F11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD4042BDR?qs=LSR%252BNeaw%2FwC6dZxbzHrrmg%3D%3D" 1150 -800 50 H I L CNN "Mouser Price/Stock"
-F12 "C406861" 0 0 50 H I C CNN "LCSC"
+DEF Device_R_POT RV 0 40 Y N 1 F N
+F0 "RV" -175 0 50 V V C CNN
+F1 "Device_R_POT" -100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
 DRAW
-P 5 0 1 6 200 100 1100 100 1100 -800 200 -800 200 100 N
-X Q4 1 0 0 200 R 50 50 0 0 P
-X Q2 10 1300 -600 200 L 50 50 0 0 P
-X Q3 11 1300 -500 200 L 50 50 0 0 P
-X ~Q3 12 1300 -400 200 L 50 50 0 0 P
-X D3 13 1300 -300 200 L 50 50 0 0 P
-X D4 14 1300 -200 200 L 50 50 0 0 P
-X ~Q4 15 1300 -100 200 L 50 50 0 0 P
-X VDD 16 1300 0 200 L 50 50 0 0 P
-X Q1 2 0 -100 200 R 50 50 0 0 P
-X ~Q1 3 0 -200 200 R 50 50 0 0 P
-X D1 4 0 -300 200 R 50 50 0 0 P
-X CLOCK 5 0 -400 200 R 50 50 0 0 P
-X POLARITY 6 0 -500 200 R 50 50 0 0 P
-X D2 7 0 -600 200 R 50 50 0 0 P
-X VSS 8 0 -700 200 R 50 50 0 0 P
-X ~Q2 9 1300 -700 200 L 50 50 0 0 P
+S 40 100 -40 -100 0 1 10 N
+P 2 0 1 0 100 0 60 0 N
+P 4 0 1 0 45 0 90 20 90 -20 45 0 F
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Digital_JLC_CD4024BM96
+#
+DEF Digital_JLC_CD4024BM96 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "Digital_JLC_CD4024BM96" 1050 200 50 H V L CNN
+F2 "SOIC127P600X175-14N" 1050 100 50 H I L CNN
+F3 "" 1050 0 50 H I L CNN
+F4 "CMOS 7-Stage Ripple-Carry Binary Counter/Divider" 1050 -100 50 H I L CNN "Description"
+F5 "1.75" 1050 -200 50 H I L CNN "Height"
+F6 "595-CD4024BM96" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD4024BM96?qs=dQbkqP7qjabA91b8HIJlIQ%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "CD4024BM96" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+F10 "C157535" 0 0 50 H I C CNN "LCSC"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -700 200 -700 200 100 N
+X [Oslash] 1 0 0 200 R 50 50 0 0 P
+X NC_2 10 1200 -400 200 L 50 50 0 0 P
+X Q2 11 1200 -300 200 L 50 50 0 0 P
+X Q1 12 1200 -200 200 L 50 50 0 0 P
+X NC_3 13 1200 -100 200 L 50 50 0 0 P
+X VDD 14 1200 0 200 L 50 50 0 0 P
+X RESET 2 0 -100 200 R 50 50 0 0 P
+X Q7 3 0 -200 200 R 50 50 0 0 P
+X Q6 4 0 -300 200 R 50 50 0 0 P
+X Q5 5 0 -400 200 R 50 50 0 0 P
+X Q4 6 0 -500 200 R 50 50 0 0 P
+X VSS 7 0 -600 200 R 50 50 0 0 P
+X NC_1 8 1200 -600 200 L 50 50 0 0 P
+X Q3 9 1200 -500 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -239,6 +303,98 @@ P 2 0 1 0 50 0 -50 0 N
 P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diode_JLC_RedLED
+#
+DEF Diode_JLC_RedLED D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Diode_JLC_RedLED" 0 -100 50 H V C CNN
+F2 "Diode_SMD:D_0805_2012Metric" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "C84256" 0 0 50 H I C CNN "LCSC"
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diode_JLC_ZMM5V1
+#
+DEF Diode_JLC_ZMM5V1 D 0 10 N N 1 F N
+F0 "D" 0 90 50 H V C CNN
+F1 "Diode_JLC_ZMM5V1" 0 -90 50 H V C CNN
+F2 "Diode_SMD:D_MiniMELF" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "C8061" 0 0 50 H I C CNN "LCSC"
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 30 0 -30 0 N
+P 3 0 1 10 -10 40 -30 40 -30 -40 N
+P 4 0 1 10 30 40 -30 0 30 -40 30 40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Jumper_SolderJumper_2_Bridged
+#
+DEF Jumper_SolderJumper_2_Bridged JP 0 0 Y N 1 F N
+F0 "JP" 0 80 50 H V C CNN
+F1 "Jumper_SolderJumper_2_Bridged" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Bridged*
+$ENDFPLIST
+DRAW
+A -10 0 40 901 -901 0 1 0 N -10 40 -10 -40
+A -10 0 40 901 -901 0 1 0 F -10 40 -10 -40
+A 10 0 40 -899 899 0 1 0 N 10 -40 10 40
+A 10 0 40 -899 899 0 1 0 F 10 -40 10 40
+S -20 20 20 -20 0 1 0 F
+P 2 0 1 0 -10 40 -10 -40 N
+P 2 0 1 0 10 40 10 -40 N
+X A 1 -150 0 100 R 50 50 1 1 P
+X B 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Jumper_SolderJumper_2_Open
+#
+DEF Jumper_SolderJumper_2_Open JP 0 0 Y N 1 F N
+F0 "JP" 0 80 50 H V C CNN
+F1 "Jumper_SolderJumper_2_Open" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Open*
+$ENDFPLIST
+DRAW
+A -10 0 40 901 -901 0 1 0 N -10 40 -10 -40
+A -10 0 40 901 -901 0 1 0 F -10 40 -10 -40
+A 10 0 40 -899 899 0 1 0 N 10 -40 10 40
+A 10 0 40 -899 899 0 1 0 F 10 -40 10 40
+P 2 0 1 0 -10 40 -10 -40 N
+P 2 0 1 0 10 40 10 -40 N
+X A 1 -150 0 100 R 50 50 1 1 P
+X B 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -433,6 +589,47 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# SamacSys_Parts_B2B-PH-K-S_LF__SN_
+#
+DEF SamacSys_Parts_B2B-PH-K-S_LF__SN_ J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "SamacSys_Parts_B2B-PH-K-S_LF__SN_" 650 200 50 H V L CNN
+F2 "SHDR2W50P0X200_1X2_590X450X600P" 650 100 50 H I L CNN
+F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" 650 0 50 H I L CNN
+F4 "PH-2.0mm Header top entry 2 way JST PH Series, Series Number B2B, 2mm Pitch 2 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" 650 -100 50 H I L CNN "Description"
+F5 "6" 650 -200 50 H I L CNN "Height"
+F6 "JST (JAPAN SOLDERLESS TERMINALS)" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "B2B-PH-K-S(LF)(SN)" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "8201422P" 650 -700 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/8201422P" 650 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 U
+X 2 2 0 -100 200 R 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_STX-3200-3NB
+#
+DEF SamacSys_Parts_STX-3200-3NB J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "SamacSys_Parts_STX-3200-3NB" 750 200 50 H V L CNN
+F2 "STX32003NB" 750 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/STX-3200-3NB.pdf" 750 0 50 H I L CNN
+F4 "Phone Connectors 3.5mm PCB W/BACKPLTE NON-THREADED" 750 -100 50 H I L CNN "Description"
+F5 "11.35" 750 -200 50 H I L CNN "Height"
+F6 "806-STX-3200-3NB" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=806-STX-3200-3NB" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Kycon" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "STX-3200-3NB" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+X 1S 1 0 0 200 R 50 50 0 0 P
+X 2R 2 900 -100 200 L 50 50 0 0 P
+X 5T 3 900 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # Transistor_JLC_BC817-40W,115
 #
 DEF Transistor_JLC_BC817-40W,115 Q 0 30 Y Y 1 F N
@@ -461,6 +658,82 @@ P 4 0 1 10 330 -100 350 -80 370 -120 330 -100 F
 X ~ 1 0 0 100 R 50 50 0 0 P
 X ~ 2 400 -300 100 U 50 50 0 0 P
 X ~ 3 400 300 100 D 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Transistor_JLC_TL074IDR
+#
+DEF Transistor_JLC_TL074IDR IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "Transistor_JLC_TL074IDR" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-14N" 950 100 50 H I L CNN
+F3 "" 950 0 50 H I L CNN
+F4 "Quad Low-Noise JFET-Input General-Purpose Operational Amplifier" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TL074IDR" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "TL074IDR" 950 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/tl074idr/texas-instruments" 950 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "595-TL074IDR" 950 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL074IDR?qs=odmYgEirbwwhQzvbqxGd6g%3D%3D" 950 -800 50 H I L CNN "Mouser Price/Stock"
+F12 "C6964" 0 0 50 H I C CNN "LCSC"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -700 200 -700 200 100 N
+X 1OUT 1 0 0 200 R 50 50 0 0 P
+X 3IN+ 10 1100 -400 200 L 50 50 0 0 P
+X VCC- 11 1100 -300 200 L 50 50 0 0 P
+X 4IN+ 12 1100 -200 200 L 50 50 0 0 P
+X 4IN- 13 1100 -100 200 L 50 50 0 0 P
+X 4OUT 14 1100 0 200 L 50 50 0 0 P
+X 1IN- 2 0 -100 200 R 50 50 0 0 P
+X 1IN+ 3 0 -200 200 R 50 50 0 0 P
+X VCC+ 4 0 -300 200 R 50 50 0 0 P
+X 2IN+ 5 0 -400 200 R 50 50 0 0 P
+X 2IN- 6 0 -500 200 R 50 50 0 0 P
+X 2OUT 7 0 -600 200 R 50 50 0 0 P
+X 3OUT 8 1100 -600 200 L 50 50 0 0 P
+X 3IN- 9 1100 -500 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# power_+BATT
+#
+DEF power_+BATT #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+BATT" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +BATT 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GNDA
+#
+DEF power_GNDA #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GNDA" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GNDA 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
