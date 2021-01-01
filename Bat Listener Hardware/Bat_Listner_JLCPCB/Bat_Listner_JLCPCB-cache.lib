@@ -696,6 +696,24 @@ X 3IN- 9 1100 -500 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
+# personal_TestPoint
+#
+DEF personal_TestPoint TP 0 30 N N 1 F N
+F0 "TP" 135 70 50 H V C CNN
+F1 "personal_TestPoint" 130 165 50 H V C CNN
+F2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+S 35 110 230 35 0 1 10 f
+P 2 0 1 10 0 0 35 35 N
+X 1 1 0 0 0 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # power_+BATT
 #
 DEF power_+BATT #PWR 0 0 Y Y 1 F P
