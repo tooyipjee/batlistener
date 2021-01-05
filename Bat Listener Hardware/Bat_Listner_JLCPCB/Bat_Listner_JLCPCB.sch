@@ -381,27 +381,6 @@ F 5 "C1585" H 10700 6500 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:B2B-PH-K-S_LF__SN_ J1
-U 1 1 5FE892ED
-P 2400 3700
-F 0 "J1" H 2692 3965 50  0000 C CNN
-F 1 "B2B-PH-K-S_LF__SN_" H 2692 3874 50  0000 C CNN
-F 2 "SamacSys_Parts:SHDR2W50P0X200_1X2_590X450X600P" H 3050 3800 50  0001 L CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 3050 3700 50  0001 L CNN
-F 4 "PH-2.0mm Header top entry 2 way JST PH Series, Series Number B2B, 2mm Pitch 2 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" H 3050 3600 50  0001 L CNN "Description"
-F 5 "6" H 3050 3500 50  0001 L CNN "Height"
-F 6 "JST (JAPAN SOLDERLESS TERMINALS)" H 3050 3400 50  0001 L CNN "Manufacturer_Name"
-F 7 "B2B-PH-K-S(LF)(SN)" H 3050 3300 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "8201422P" H 3050 3000 50  0001 L CNN "RS Part Number"
-F 9 "http://uk.rs-online.com/web/p/products/8201422P" H 3050 2900 50  0001 L CNN "RS Price/Stock"
-	1    2400 3700
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 3700 2450 3700
-Wire Wire Line
-	2400 3800 2450 3800
-$Comp
 L power:GND #PWR0101
 U 1 1 5FE8AE31
 P 4550 4850
@@ -1165,102 +1144,15 @@ Wire Wire Line
 	12450 6450 12250 6450
 Wire Wire Line
 	9650 7300 12450 7300
-$Comp
-L personal:TestPoint TP4
-U 1 1 5FF01E2C
-P 4800 3050
-F 0 "TP4" H 5060 3144 50  0000 L CNN
-F 1 "TestPoint" H 5060 3053 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 5000 3050 50  0001 C CNN
-F 3 "~" H 5000 3050 50  0001 C CNN
-	1    4800 3050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4800 3050 4700 3050
 Connection ~ 4700 3050
 Wire Wire Line
 	4700 3050 4700 3100
-$Comp
-L personal:TestPoint TP1
-U 1 1 5FF0C4B2
-P 2450 3700
-F 0 "TP1" H 2600 3850 50  0000 L CNN
-F 1 "TestPoint" H 2600 3950 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 2650 3700 50  0001 C CNN
-F 3 "~" H 2650 3700 50  0001 C CNN
-	1    2450 3700
-	1    0    0    -1  
-$EndComp
-Connection ~ 2450 3700
-Wire Wire Line
-	2450 3700 2950 3700
-$Comp
-L personal:TestPoint TP2
-U 1 1 5FF0D234
-P 2450 3800
-F 0 "TP2" H 2600 3950 50  0000 R CNN
-F 1 "TestPoint" H 2700 4050 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 2650 3800 50  0001 C CNN
-F 3 "~" H 2650 3800 50  0001 C CNN
-	1    2450 3800
-	1    0    0    1   
-$EndComp
-Connection ~ 2450 3800
-Wire Wire Line
-	2450 3800 2950 3800
-$Comp
-L personal:TestPoint TP7
-U 1 1 5FF0DC1A
-P 11100 3250
-F 0 "TP7" H 11360 3344 50  0000 L CNN
-F 1 "TestPoint" H 11360 3253 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 11300 3250 50  0001 C CNN
-F 3 "~" H 11300 3250 50  0001 C CNN
-	1    11100 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L personal:TestPoint TP6
-U 1 1 5FF0E32B
-P 9150 3450
-F 0 "TP6" H 9410 3544 50  0000 L CNN
-F 1 "TestPoint" H 9410 3453 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9350 3450 50  0001 C CNN
-F 3 "~" H 9350 3450 50  0001 C CNN
-	1    9150 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L personal:TestPoint TP5
-U 1 1 5FF1FD7C
-P 7350 3450
-F 0 "TP5" H 7610 3544 50  0000 L CNN
-F 1 "TestPoint" H 7610 3453 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 7550 3450 50  0001 C CNN
-F 3 "~" H 7550 3450 50  0001 C CNN
-	1    7350 3450
-	1    0    0    -1  
-$EndComp
-Connection ~ 7350 3450
-Connection ~ 9150 3450
-Connection ~ 11100 3250
 Wire Wire Line
 	11100 3600 11100 4050
 Wire Wire Line
 	9150 3850 9150 4350
-$Comp
-L personal:TestPoint TP3
-U 1 1 5FF212F5
-P 3750 8750
-F 0 "TP3" H 3900 8950 50  0000 R CNN
-F 1 "TestPoint" H 4100 9050 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 3950 8750 50  0001 C CNN
-F 3 "~" H 3950 8750 50  0001 C CNN
-	1    3750 8750
-	-1   0    0    1   
-$EndComp
-Connection ~ 3750 8750
 $Comp
 L SamacSys_Parts:B2B-PH-K-S_LF__SN_ J4
 U 1 1 5FF830D7
@@ -1290,4 +1182,48 @@ Wire Wire Line
 Wire Wire Line
 	6000 3350 6000 2300
 Connection ~ 4700 3350
+$Comp
+L SamacSys_Parts:MA40S4S IC3
+U 1 1 5FF4E107
+P 2400 3700
+F 0 "IC3" H 2692 3965 50  0000 C CNN
+F 1 "MA40S4S" H 2692 3874 50  0000 C CNN
+F 2 "MA40S4S" H 3050 3800 50  0001 L CNN
+F 3 "" H 3050 3700 50  0001 L CNN
+F 4 "Ultrasonic transducer transmitter,0.2-4m Murata 0.2  4 m Barrel Ultrasonic Proximity Sensor, PCB" H 3050 3600 50  0001 L CNN "Description"
+F 5 "" H 3050 3500 50  0001 L CNN "Height"
+F 6 "81-MA40S4S" H 3050 3400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/MA40S4S?qs=dyqxRLCA4pZUsZeqTN%2FO6A%3D%3D" H 3050 3300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 3050 3200 50  0001 L CNN "Manufacturer_Name"
+F 9 "MA40S4S" H 3050 3100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2400 3700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3800 2950 3800
+Wire Wire Line
+	2400 3700 2950 3700
+$Comp
+L personal:TestPoint TP1
+U 1 1 5FF01E2C
+P 4800 3050
+F 0 "TP1" H 5060 3144 50  0000 L CNN
+F 1 "TestPoint" H 5060 3053 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 5000 3050 50  0001 C CNN
+F 3 "~" H 5000 3050 50  0001 C CNN
+	1    4800 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 3750 8750
+$Comp
+L personal:TestPoint TP2
+U 1 1 5FF212F5
+P 3750 8750
+F 0 "TP2" H 3900 8950 50  0000 R CNN
+F 1 "TestPoint" H 4100 9050 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 3950 8750 50  0001 C CNN
+F 3 "~" H 3950 8750 50  0001 C CNN
+	1    3750 8750
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

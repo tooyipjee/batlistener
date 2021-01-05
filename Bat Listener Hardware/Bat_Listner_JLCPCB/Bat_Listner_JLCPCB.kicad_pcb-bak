@@ -1201,7 +1201,7 @@
   )
 
   (module SamacSys_Parts:SHDR2W50P0X200_1X2_590X450X600P (layer F.Cu) (tedit 0) (tstamp 5FE92B68)
-    (at 169.545 69.215 270)
+    (at 169.545 67.945 270)
     (descr B2B-PH-K-S)
     (tags Connector)
     (path /5FEB5B93)
@@ -1233,7 +1233,7 @@
   )
 
   (module SamacSys_Parts:SHDR2W50P0X200_1X2_590X450X600P (layer F.Cu) (tedit 0) (tstamp 5FE92B7B)
-    (at 169.545 74.295 270)
+    (at 169.545 74.93 270)
     (descr B2B-PH-K-S)
     (tags Connector)
     (path /5FF5FE07)
@@ -1882,7 +1882,7 @@
   )
 
   (module Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical (layer F.Cu) (tedit 5A3D4994) (tstamp 5FE92CC5)
-    (at 170.18 57.15 90)
+    (at 170.18 55.88 90)
     (descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
     (tags "Potentiometer vertical Bourns 3296W")
     (path /5FEB34B2)
