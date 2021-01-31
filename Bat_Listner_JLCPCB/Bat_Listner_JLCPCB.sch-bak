@@ -368,19 +368,6 @@ F 4 "C25076" H 11250 6300 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor_JLC:33n C16
-U 1 1 5FAB6F92
-P 13050 6500
-F 0 "C16" H 13165 6546 50  0000 L CNN
-F 1 "33n" H 13165 6455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 13088 6350 50  0001 C CNN
-F 3 "~" H 13050 6500 50  0001 C CNN
-F 4 "X7R" H 13050 6500 50  0001 C CNN "Type"
-F 5 "C1585" H 13050 6500 50  0001 C CNN "LCSC"
-	1    13050 6500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 5FE8AE31
 P 4550 4850
@@ -986,13 +973,6 @@ Connection ~ 11850 6550
 NoConn ~ 11850 6100
 Wire Wire Line
 	12000 6250 12500 6250
-Wire Wire Line
-	13450 6250 13050 6250
-Wire Wire Line
-	13050 6350 13050 6250
-Connection ~ 13050 6250
-Wire Wire Line
-	13050 6250 12800 6250
 Connection ~ 11650 7300
 $Comp
 L power:GND #PWR0110
@@ -1005,36 +985,6 @@ F 3 "" H 12400 7050 50  0001 C CNN
 	1    12400 7050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13450 6650 13050 6650
-$Comp
-L SamacSys_Parts:B2B-PH-K-S_LF__SN_ J5
-U 1 1 5FF5FE07
-P 14000 6950
-F 0 "J5" H 14292 7215 50  0000 C CNN
-F 1 "B2B-PH-K-S_LF__SN_" H 14292 7124 50  0000 C CNN
-F 2 "SamacSys_Parts:SHDR2W50P0X200_1X2_590X450X600P" H 14650 7050 50  0001 L CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 14650 6950 50  0001 L CNN
-F 4 "PH-2.0mm Header top entry 2 way JST PH Series, Series Number B2B, 2mm Pitch 2 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" H 14650 6850 50  0001 L CNN "Description"
-F 5 "6" H 14650 6750 50  0001 L CNN "Height"
-F 6 "JST (JAPAN SOLDERLESS TERMINALS)" H 14650 6650 50  0001 L CNN "Manufacturer_Name"
-F 7 "B2B-PH-K-S(LF)(SN)" H 14650 6550 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "8201422P" H 14650 6250 50  0001 L CNN "RS Part Number"
-F 9 "http://uk.rs-online.com/web/p/products/8201422P" H 14650 6150 50  0001 L CNN "RS Price/Stock"
-	1    14000 6950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13450 7050 14000 7050
-Wire Wire Line
-	13450 6650 13450 7050
-Wire Wire Line
-	12400 6550 12900 6550
-Wire Wire Line
-	12900 6550 12900 6950
-Wire Wire Line
-	12900 6950 14000 6950
-Connection ~ 12400 6550
 Wire Wire Line
 	11850 7900 11850 7800
 Wire Wire Line
@@ -1066,71 +1016,23 @@ Wire Wire Line
 Connection ~ 12000 8000
 Wire Wire Line
 	12000 8000 12050 8000
-Connection ~ 12000 7300
 $Comp
 L SamacSys_Parts:STX-3200-3NB J6
 U 1 1 5FFD539A
-P 14000 6350
-F 0 "J6" V 14496 6122 50  0000 R CNN
-F 1 "STX-3200-3NB" V 14405 6122 50  0000 R CNN
-F 2 "SamacSys_Parts:STX32003NB" H 14750 6450 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/STX-3200-3NB.pdf" H 14750 6350 50  0001 L CNN
-F 4 "Phone Connectors 3.5mm PCB W/BACKPLTE NON-THREADED" H 14750 6250 50  0001 L CNN "Description"
-F 5 "11.35" H 14750 6150 50  0001 L CNN "Height"
-F 6 "806-STX-3200-3NB" H 14750 6050 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=806-STX-3200-3NB" H 14750 5950 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Kycon" H 14750 5850 50  0001 L CNN "Manufacturer_Name"
-F 9 "STX-3200-3NB" H 14750 5750 50  0001 L CNN "Manufacturer_Part_Number"
-	1    14000 6350
+P 13350 7250
+F 0 "J6" V 13846 7022 50  0000 R CNN
+F 1 "STX-3200-3NB" V 13755 7022 50  0000 R CNN
+F 2 "SamacSys_Parts:STX32003NB" H 14100 7350 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/STX-3200-3NB.pdf" H 14100 7250 50  0001 L CNN
+F 4 "Phone Connectors 3.5mm PCB W/BACKPLTE NON-THREADED" H 14100 7150 50  0001 L CNN "Description"
+F 5 "11.35" H 14100 7050 50  0001 L CNN "Height"
+F 6 "806-STX-3200-3NB" H 14100 6950 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=806-STX-3200-3NB" H 14100 6850 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kycon" H 14100 6750 50  0001 L CNN "Manufacturer_Name"
+F 9 "STX-3200-3NB" H 14100 6650 50  0001 L CNN "Manufacturer_Part_Number"
+	1    13350 7250
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	14100 5450 14000 5450
-Wire Wire Line
-	13450 5450 13450 6250
-Connection ~ 14000 5450
-Wire Wire Line
-	14000 5450 13450 5450
-$Comp
-L Jumper:SolderJumper_2_Bridged JP1
-U 1 1 5FFFC3DD
-P 13850 6450
-F 0 "JP1" H 13850 6550 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 13950 6350 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 13850 6450 50  0001 C CNN
-F 3 "~" H 13850 6450 50  0001 C CNN
-	1    13850 6450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14000 6350 14000 6450
-Wire Wire Line
-	14000 6550 13950 6550
-Connection ~ 13450 6650
-Wire Wire Line
-	13700 6450 13450 6450
-Wire Wire Line
-	13450 6450 13450 6650
-$Comp
-L Jumper:SolderJumper_2_Open JP2
-U 1 1 6001631F
-P 14450 6450
-F 0 "JP2" H 14450 6655 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 14450 6564 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 14450 6450 50  0001 C CNN
-F 3 "~" H 14450 6450 50  0001 C CNN
-	1    14450 6450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14000 6450 14300 6450
-Connection ~ 14000 6450
-Wire Wire Line
-	14800 7300 14800 6450
-Wire Wire Line
-	14800 6450 14600 6450
-Wire Wire Line
-	12000 7300 14800 7300
 Wire Wire Line
 	4800 3050 4700 3050
 Connection ~ 4700 3050
@@ -1385,4 +1287,18 @@ $EndComp
 Connection ~ 2150 9500
 Wire Wire Line
 	2150 9500 1850 9500
+Wire Wire Line
+	12800 6250 13350 6250
+Connection ~ 13350 6250
+Wire Wire Line
+	13350 6250 13450 6250
+Wire Wire Line
+	13350 7300 12000 7300
+Connection ~ 12000 7300
+Wire Wire Line
+	13350 7250 13350 7300
+Wire Wire Line
+	13350 6250 13350 6350
+Wire Wire Line
+	13450 6250 13450 6350
 $EndSCHEMATC

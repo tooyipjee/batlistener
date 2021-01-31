@@ -1243,21 +1243,12 @@ Text GLabel 13050 3400 0    50   Input ~ 0
 1
 Text GLabel 13050 3600 0    50   Input ~ 0
 3
-Text GLabel 13050 3700 0    50   Input ~ 0
-4
-Wire Wire Line
-	13050 3700 13300 3700
 Wire Wire Line
 	13300 3600 13050 3600
 Wire Wire Line
 	13050 3500 13300 3500
 Wire Wire Line
 	13300 3400 13050 3400
-Text GLabel 3000 7500 2    50   Input ~ 0
-4
-Wire Wire Line
-	3000 7500 2750 7500
-Connection ~ 2750 7500
 Text GLabel 3000 8900 2    50   Input ~ 0
 11
 Wire Wire Line
@@ -1301,4 +1292,19 @@ Wire Wire Line
 	13350 6250 13350 6350
 Wire Wire Line
 	13450 6250 13450 6350
+$Comp
+L power:+BATT #PWR0114
+U 1 1 601F503E
+P 12750 3600
+F 0 "#PWR0114" H 12750 3450 50  0001 C CNN
+F 1 "+BATT" H 12765 3773 50  0000 C CNN
+F 2 "" H 12750 3600 50  0001 C CNN
+F 3 "" H 12750 3600 50  0001 C CNN
+	1    12750 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12750 3600 12750 3700
+Wire Wire Line
+	12750 3700 13300 3700
 $EndSCHEMATC
