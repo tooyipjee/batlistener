@@ -599,17 +599,6 @@ Wire Wire Line
 Wire Wire Line
 	9150 4350 9300 4350
 Connection ~ 9150 4350
-$Comp
-L Device:R_POT RV2
-U 1 1 5FEB34B2
-P 10000 4200
-F 0 "RV2" H 9930 4246 50  0000 R CNN
-F 1 "22k" H 9930 4155 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 10000 4200 50  0001 C CNN
-F 3 "~" H 10000 4200 50  0001 C CNN
-	1    10000 4200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9600 4350 10000 4350
 Text GLabel 10350 4050 2    50   Input ~ 0
@@ -795,23 +784,6 @@ $EndComp
 Wire Wire Line
 	6100 8250 6100 8350
 $Comp
-L SamacSys_Parts:B2B-PH-K-S_LF__SN_ J2
-U 1 1 5FE91BD2
-P 7050 8550
-F 0 "J2" H 7342 8815 50  0000 C CNN
-F 1 "B2B-PH-K-S_LF__SN_" H 7342 8724 50  0000 C CNN
-F 2 "SamacSys_Parts:SHDR2W50P0X200_1X2_590X450X600P" H 7700 8650 50  0001 L CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 7700 8550 50  0001 L CNN
-F 4 "PH-2.0mm Header top entry 2 way JST PH Series, Series Number B2B, 2mm Pitch 2 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" H 7700 8450 50  0001 L CNN "Description"
-F 5 "6" H 7700 8350 50  0001 L CNN "Height"
-F 6 "JST (JAPAN SOLDERLESS TERMINALS)" H 7700 8250 50  0001 L CNN "Manufacturer_Name"
-F 7 "B2B-PH-K-S(LF)(SN)" H 7700 8150 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "8201422P" H 7700 7850 50  0001 L CNN "RS Part Number"
-F 9 "http://uk.rs-online.com/web/p/products/8201422P" H 7700 7750 50  0001 L CNN "RS Price/Stock"
-	1    7050 8550
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0108
 U 1 1 5FE92198
 P 6550 8750
@@ -853,17 +825,6 @@ Wire Wire Line
 	6000 7100 6200 7100
 Connection ~ 6200 7100
 $Comp
-L Device:R_POT RV1
-U 1 1 5FEB2DE6
-P 11850 6250
-F 0 "RV1" H 11780 6296 50  0000 R CNN
-F 1 "22k" H 11780 6205 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 11850 6250 50  0001 C CNN
-F 3 "~" H 11850 6250 50  0001 C CNN
-	1    11850 6250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Resistor_JLC:100 R11
 U 1 1 5FEB32DB
 P 12650 6250
@@ -886,23 +847,6 @@ F 3 "~" H 11400 7950 50  0001 C CNN
 F 4 "C84256" H 11400 7950 50  0001 C CNN "LCSC"
 	1    11400 7950
 	0    -1   -1   0   
-$EndComp
-$Comp
-L SamacSys_Parts:B2B-PH-K-S_LF__SN_ J3
-U 1 1 5FEB5B93
-P 12050 7900
-F 0 "J3" H 12600 8150 50  0000 C CNN
-F 1 "B2B-PH-K-S_LF__SN_" H 12650 8050 50  0000 C CNN
-F 2 "SamacSys_Parts:SHDR2W50P0X200_1X2_590X450X600P" H 12700 8000 50  0001 L CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 12700 7900 50  0001 L CNN
-F 4 "PH-2.0mm Header top entry 2 way JST PH Series, Series Number B2B, 2mm Pitch 2 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" H 12700 7800 50  0001 L CNN "Description"
-F 5 "6" H 12700 7700 50  0001 L CNN "Height"
-F 6 "JST (JAPAN SOLDERLESS TERMINALS)" H 12700 7600 50  0001 L CNN "Manufacturer_Name"
-F 7 "B2B-PH-K-S(LF)(SN)" H 12700 7500 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "8201422P" H 12700 7200 50  0001 L CNN "RS Part Number"
-F 9 "http://uk.rs-online.com/web/p/products/8201422P" H 12700 7100 50  0001 L CNN "RS Price/Stock"
-	1    12050 7900
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	10200 6550 11000 6550
@@ -1016,23 +960,6 @@ Wire Wire Line
 Connection ~ 12000 8000
 Wire Wire Line
 	12000 8000 12050 8000
-$Comp
-L SamacSys_Parts:STX-3200-3NB J6
-U 1 1 5FFD539A
-P 13350 7250
-F 0 "J6" V 13846 7022 50  0000 R CNN
-F 1 "STX-3200-3NB" V 13755 7022 50  0000 R CNN
-F 2 "SamacSys_Parts:STX32003NB" H 14100 7350 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/STX-3200-3NB.pdf" H 14100 7250 50  0001 L CNN
-F 4 "Phone Connectors 3.5mm PCB W/BACKPLTE NON-THREADED" H 14100 7150 50  0001 L CNN "Description"
-F 5 "11.35" H 14100 7050 50  0001 L CNN "Height"
-F 6 "806-STX-3200-3NB" H 14100 6950 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=806-STX-3200-3NB" H 14100 6850 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Kycon" H 14100 6750 50  0001 L CNN "Manufacturer_Name"
-F 9 "STX-3200-3NB" H 14100 6650 50  0001 L CNN "Manufacturer_Part_Number"
-	1    13350 7250
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4800 3050 4700 3050
 Connection ~ 4700 3050
@@ -1042,23 +969,6 @@ Wire Wire Line
 	11100 3600 11100 4050
 Wire Wire Line
 	9150 3850 9150 4350
-$Comp
-L SamacSys_Parts:B2B-PH-K-S_LF__SN_ J4
-U 1 1 5FF830D7
-P 1800 8000
-F 0 "J4" H 2092 8265 50  0000 C CNN
-F 1 "B2B-PH-K-S_LF__SN_" H 2092 8174 50  0000 C CNN
-F 2 "SamacSys_Parts:SHDR2W50P0X200_1X2_590X450X600P" H 2450 8100 50  0001 L CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 2450 8000 50  0001 L CNN
-F 4 "PH-2.0mm Header top entry 2 way JST PH Series, Series Number B2B, 2mm Pitch 2 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" H 2450 7900 50  0001 L CNN "Description"
-F 5 "6" H 2450 7800 50  0001 L CNN "Height"
-F 6 "JST (JAPAN SOLDERLESS TERMINALS)" H 2450 7700 50  0001 L CNN "Manufacturer_Name"
-F 7 "B2B-PH-K-S(LF)(SN)" H 2450 7600 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "8201422P" H 2450 7300 50  0001 L CNN "RS Part Number"
-F 9 "http://uk.rs-online.com/web/p/products/8201422P" H 2450 7200 50  0001 L CNN "RS Price/Stock"
-	1    1800 8000
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4550 3000 4700 3000
 $Comp
@@ -1249,11 +1159,6 @@ Wire Wire Line
 	13050 3500 13300 3500
 Wire Wire Line
 	13300 3400 13050 3400
-Text GLabel 3000 8900 2    50   Input ~ 0
-11
-Wire Wire Line
-	3000 8900 2750 8900
-Connection ~ 2750 8900
 Text GLabel 3000 8200 2    50   Input ~ 0
 3
 Wire Wire Line
@@ -1278,20 +1183,6 @@ $EndComp
 Connection ~ 2150 9500
 Wire Wire Line
 	2150 9500 1850 9500
-Wire Wire Line
-	12800 6250 13350 6250
-Connection ~ 13350 6250
-Wire Wire Line
-	13350 6250 13450 6250
-Wire Wire Line
-	13350 7300 12000 7300
-Connection ~ 12000 7300
-Wire Wire Line
-	13350 7250 13350 7300
-Wire Wire Line
-	13350 6250 13350 6350
-Wire Wire Line
-	13450 6250 13450 6350
 $Comp
 L power:+BATT #PWR0114
 U 1 1 601F503E
@@ -1307,4 +1198,132 @@ Wire Wire Line
 	12750 3600 12750 3700
 Wire Wire Line
 	12750 3700 13300 3700
+$Comp
+L Connector_JLC:WQP-PJ313D J3
+U 1 1 602EE912
+P 13950 6900
+F 0 "J3" H 14400 6435 50  0000 C CNN
+F 1 "WQP-PJ313D" H 14400 6526 50  0000 C CNN
+F 2 "C18167" H 14700 7000 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Boom-Precision-Elec-Straight-headphone-jack_C18167.pdf" H 14700 6900 50  0001 L CNN
+F 4 "Audio & Video Connectors DIP RoHS" H 14700 6800 50  0001 L CNN "Description"
+F 5 "5" H 14700 6700 50  0001 L CNN "Height"
+F 6 "Boom Precision Electric" H 14700 6600 50  0001 L CNN "Manufacturer_Name"
+F 7 "C18167" H 14700 6500 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C18167" H 13950 6900 50  0001 C CNN "LCSC"
+	1    13950 6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13050 6800 12900 6800
+Wire Wire Line
+	12900 6800 12900 6700
+Wire Wire Line
+	13050 6700 12900 6700
+Connection ~ 12900 6700
+Wire Wire Line
+	12900 6700 12900 6250
+Wire Wire Line
+	13050 6900 12900 6900
+Wire Wire Line
+	12900 6900 12900 7300
+Wire Wire Line
+	12000 7300 12900 7300
+Connection ~ 12000 7300
+Wire Wire Line
+	12800 6250 12900 6250
+NoConn ~ 13950 6700
+NoConn ~ 13950 6900
+$Comp
+L Connector_JLC:PH-2W J2
+U 1 1 6032C940
+P 12050 7900
+F 0 "J2" H 12678 7896 50  0000 L CNN
+F 1 "PH-2W" H 12678 7805 50  0000 L CNN
+F 2 "SHDRRA2W50P0X200_1X2_600X760X510P" H 12700 8000 50  0001 L CNN
+F 3 "https://www.mouser.ca/datasheet/2/291/A2001-1532311.pdf" H 12700 7900 50  0001 L CNN
+F 4 "Headers & Wire Housings Thruhole right angle backlight connector" H 12700 7800 50  0001 L CNN "Description"
+F 5 "5.1" H 12700 7700 50  0001 L CNN "Height"
+F 6 "Newhaven Display" H 12700 7600 50  0001 L CNN "Manufacturer_Name"
+F 7 "A2001WR-2P Thru-hole" H 12700 7500 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "763-A2001WR2P" H 12700 7400 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Newhaven-Display/A2001WR-2P-Thru-hole?qs=gZXFycFWdAPcYjIK7pURng%3D%3D" H 12700 7300 50  0001 L CNN "Mouser Price/Stock"
+F 10 "C225207" H 12050 7900 50  0001 C CNN "LCSC"
+	1    12050 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_JLC:PH-2W J1
+U 1 1 6032DABE
+P 7050 8550
+F 0 "J1" H 7678 8546 50  0000 L CNN
+F 1 "PH-2W" H 7678 8455 50  0000 L CNN
+F 2 "SHDRRA2W50P0X200_1X2_600X760X510P" H 7700 8650 50  0001 L CNN
+F 3 "https://www.mouser.ca/datasheet/2/291/A2001-1532311.pdf" H 7700 8550 50  0001 L CNN
+F 4 "Headers & Wire Housings Thruhole right angle backlight connector" H 7700 8450 50  0001 L CNN "Description"
+F 5 "5.1" H 7700 8350 50  0001 L CNN "Height"
+F 6 "Newhaven Display" H 7700 8250 50  0001 L CNN "Manufacturer_Name"
+F 7 "A2001WR-2P Thru-hole" H 7700 8150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "763-A2001WR2P" H 7700 8050 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Newhaven-Display/A2001WR-2P-Thru-hole?qs=gZXFycFWdAPcYjIK7pURng%3D%3D" H 7700 7950 50  0001 L CNN "Mouser Price/Stock"
+F 10 "C225207" H 7050 8550 50  0001 C CNN "LCSC"
+	1    7050 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_JLC:10K_RV RV1
+U 1 1 6034BE22
+P 10000 4750
+F 0 "RV1" V 10596 4838 50  0000 L CNN
+F 1 "10K_RV" V 10505 4838 50  0000 L CNN
+F 2 "3314J-1" H 10950 4850 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/6917409" H 10950 4750 50  0001 L CNN
+F 4 "4mm SMD Trimming Pot,1Turn,Cermet,10K Bourns 3314J Series SMD Cermet Trimmer Resistor with J-Hook Terminations, 10k +/-20% 0.25W +/-100ppm/C Top Adjust" H 10950 4650 50  0001 L CNN "Description"
+F 5 "Bourns" H 10950 4450 50  0001 L CNN "Manufacturer_Name"
+F 6 "3314J-1-103E" H 10950 4350 50  0001 L CNN "Manufacturer_Part_Number"
+F 7 "652-3314J-1-103E" H 10950 4250 50  0001 L CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Bourns/3314J-1-103E?qs=DLn41Krt9ijbGHL%252BxlN3EA%3D%3D" H 10950 4150 50  0001 L CNN "Mouser Price/Stock"
+F 9 "3314J-1-103E" H 10950 4050 50  0001 L CNN "Arrow Part Number"
+F 10 "https://www.arrow.com/en/products/3314j-1-103e/bourns" H 10950 3950 50  0001 L CNN "Arrow Price/Stock"
+F 11 "C36376" H 10000 4750 50  0001 C CNN "LCSC"
+	1    10000 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Resistor_JLC:10K_RV RV2
+U 1 1 6035BCF6
+P 11850 6800
+F 0 "RV2" V 12446 6888 50  0000 L CNN
+F 1 "10K_RV" V 12355 6888 50  0000 L CNN
+F 2 "3314J-1" H 12800 6900 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/6917409" H 12800 6800 50  0001 L CNN
+F 4 "4mm SMD Trimming Pot,1Turn,Cermet,10K Bourns 3314J Series SMD Cermet Trimmer Resistor with J-Hook Terminations, 10k +/-20% 0.25W +/-100ppm/C Top Adjust" H 12800 6700 50  0001 L CNN "Description"
+F 5 "Bourns" H 12800 6500 50  0001 L CNN "Manufacturer_Name"
+F 6 "3314J-1-103E" H 12800 6400 50  0001 L CNN "Manufacturer_Part_Number"
+F 7 "652-3314J-1-103E" H 12800 6300 50  0001 L CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Bourns/3314J-1-103E?qs=DLn41Krt9ijbGHL%252BxlN3EA%3D%3D" H 12800 6200 50  0001 L CNN "Mouser Price/Stock"
+F 9 "3314J-1-103E" H 12800 6100 50  0001 L CNN "Arrow Part Number"
+F 10 "https://www.arrow.com/en/products/3314j-1-103e/bourns" H 12800 6000 50  0001 L CNN "Arrow Price/Stock"
+F 11 "C36376" H 11850 6800 50  0001 C CNN "LCSC"
+	1    11850 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_JLC:PH-2W J4
+U 1 1 60369C79
+P 1800 8000
+F 0 "J4" H 2428 7996 50  0000 L CNN
+F 1 "PH-2W" H 2428 7905 50  0000 L CNN
+F 2 "SHDRRA2W50P0X200_1X2_600X760X510P" H 2450 8100 50  0001 L CNN
+F 3 "https://www.mouser.ca/datasheet/2/291/A2001-1532311.pdf" H 2450 8000 50  0001 L CNN
+F 4 "Headers & Wire Housings Thruhole right angle backlight connector" H 2450 7900 50  0001 L CNN "Description"
+F 5 "5.1" H 2450 7800 50  0001 L CNN "Height"
+F 6 "Newhaven Display" H 2450 7700 50  0001 L CNN "Manufacturer_Name"
+F 7 "A2001WR-2P Thru-hole" H 2450 7600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "763-A2001WR2P" H 2450 7500 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Newhaven-Display/A2001WR-2P-Thru-hole?qs=gZXFycFWdAPcYjIK7pURng%3D%3D" H 2450 7400 50  0001 L CNN "Mouser Price/Stock"
+F 10 "C225207" H 1800 8000 50  0001 C CNN "LCSC"
+	1    1800 8000
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

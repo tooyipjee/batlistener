@@ -1,4 +1,4 @@
-19125992259496492
+19161476927615353
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76293,6 +76293,13 @@ rotary encoder
 5
 4
 SamacSys_Parts
+3X3LGA
+3x3 LGA
+Accelerometer
+0
+16
+16
+SamacSys_Parts
 8-PIN-METAL-LID-LGA
 8-pin metal-lid LGA
 Integrated Circuit
@@ -76363,6 +76370,13 @@ ACAS0606
 4
 4
 SamacSys_Parts
+ATGM336H5N31
+ATGM336H-5N31-2
+Integrated Circuit
+0
+18
+18
+SamacSys_Parts
 CAPPM3216X180N
 CASE A
 Capacitor Polarised
@@ -76383,6 +76397,13 @@ Undefined or Miscellaneous
 0
 16
 16
+SamacSys_Parts
+DIOM8059X256N
+SMC JEDEC DO-214 AB
+Schottky Diode
+0
+2
+2
 SamacSys_Parts
 EG1271
 EG1271-1
@@ -76405,6 +76426,20 @@ Connector
 10
 10
 SamacSys_Parts
+INDPM6060X450N
+SWPA6045S6R8MT
+Inductor
+0
+2
+2
+SamacSys_Parts
+IRF2804STRLPBF
+D2PAK 
+MOSFET (N-Channel)
+0
+3
+3
+SamacSys_Parts
 KLDHCX0202AC1
 KLDHCX-0202-AC-1-2
 Connector
@@ -76426,6 +76461,20 @@ Integrated Circuit
 2
 2
 SamacSys_Parts
+MICROXNJ
+MICROXNJ-1
+Connector
+0
+11
+11
+SamacSys_Parts
+MLT7525
+MLT-7525-2
+Loudspeaker or Buzzer
+0
+4
+4
+SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
@@ -76440,6 +76489,13 @@ Connector
 4
 4
 SamacSys_Parts
+PJ1021SMTTR
+PJ1-021-SMT-TR-1
+Connector
+0
+3
+3
+SamacSys_Parts
 PT10V10223A2020S
 PT10V10-223A2020-S-2
 Variable Resistor
@@ -76447,12 +76503,47 @@ Variable Resistor
 3
 3
 SamacSys_Parts
+QFN50P500X500X100-33N-D
+TLV320AIC3254IRHBT-1
+Integrated Circuit
+0
+33
+33
+SamacSys_Parts
+QFN50P600X600X100-41N-D
+RHA (S-PVQFN-N40)_1
+Integrated Circuit
+0
+41
+41
+SamacSys_Parts
+QFN65P400X400X100-16N
+QFN16 (3x3x0.55)-1
+Integrated Circuit
+0
+16
+16
+SamacSys_Parts
 QFP50P900X900X160-48N
 LQFP48
 Integrated Circuit
 0
 48
 48
+SamacSys_Parts
+QFP50P2200X2200X160-144N
+LQFP-144
+Integrated Circuit
+0
+144
+144
+SamacSys_Parts
+RESC1608X55N
+1.50mmX0.70mm_2020
+Resistor
+0
+2
+2
 SamacSys_Parts
 SAMTEC_FTSH-105-01-L-DV
 SAMTEC_FTSH-105-01-L-DV
@@ -76483,15 +76574,15 @@ Diode
 2
 SamacSys_Parts
 SOIC127P600X170-9N
-DDA-2
+DDA0008J
 Integrated Circuit
 0
 9
 9
 SamacSys_Parts
 SOIC127P600X175-8N
-8-Pin SOIC
-Attenuator or Isolator
+SOIC-8+
+Integrated Circuit
 0
 8
 8
@@ -76516,6 +76607,27 @@ Integrated Circuit
 0
 16
 16
+SamacSys_Parts
+SOIC127P790X216-8N
+W25Q128JVSIQ
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+SON50P200X200X80-9N
+DRV8837CDSGR-1
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
+SON100P300X300X80-7N-D
+DMB0006A
+Hygrometer
+0
+7
+7
 SamacSys_Parts
 SON100P300X300X110-7N
 SHT20
@@ -76559,6 +76671,20 @@ Integrated Circuit
 20
 20
 SamacSys_Parts
+SOP254P680X230-4N
+AQY282SX
+Relay or Contactor
+0
+4
+4
+SamacSys_Parts
+SOP254P700X200-4N
+4 PIN ULTRA SMALL SOP
+Integrated Circuit
+0
+4
+4
+SamacSys_Parts
 SOT65P210X110-3N
 SOT323/SC-70
 Transistor BJT NPN
@@ -76574,7 +76700,7 @@ Resistor Network
 3
 SamacSys_Parts
 SOT95P280X145-6N
-DBV0006A
+SOT23-6L_1
 Integrated Circuit
 0
 6
@@ -76608,12 +76734,26 @@ Integrated Circuit
 5
 5
 SamacSys_Parts
+SRP04126R8K
+SRP0412-6R8K-2
+Inductor
+0
+2
+2
+SamacSys_Parts
 STX32003NB
 STX-3200-3NB-1
 Connector
 0
 3
 3
+SamacSys_Parts
+SWRB1204S150MT
+SWRB1204S-150MT-2
+Inductor
+0
+2
+2
 SamacSys_Parts
 TBL00925402GY2GY
 TBL009-254-02GY-2GY-4
@@ -76629,12 +76769,26 @@ Connector
 8
 8
 SamacSys_Parts
+TLP268JTPRE
+11-4M1S (4-PIN sop)
+Integrated Circuit
+0
+4
+4
+SamacSys_Parts
 TS1187ACEB
 TS-1187A-C-E-B-1
 Switch
 0
 4
 4
+SamacSys_Parts
+U254051T4BH23S2B
+U254-051T-4BH23-S2B-1
+Connector
+0
+9
+9
 SamacSys_Parts
 VCNL4040M3OEH3
 VCNL4040M3OE-H3
