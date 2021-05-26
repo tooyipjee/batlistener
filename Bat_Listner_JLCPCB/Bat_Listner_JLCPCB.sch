@@ -988,10 +988,6 @@ F 9 "MA40S4S" H 3050 3100 50  0001 L CNN "Manufacturer_Part_Number"
 	1    2400 3700
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	2400 3800 2950 3800
-Wire Wire Line
-	2400 3700 2950 3700
 $Comp
 L personal:TestPoint TP1
 U 1 1 5FF01E2C
@@ -1235,38 +1231,38 @@ Wire Wire Line
 NoConn ~ 13950 6700
 NoConn ~ 13950 6900
 $Comp
-L Connector_JLC:PH-2W J2
+L Connector_JLC:PH-2V J4
 U 1 1 6032C940
 P 12050 7900
-F 0 "J2" H 12678 7896 50  0000 L CNN
-F 1 "PH-2W" H 12678 7805 50  0000 L CNN
-F 2 "SHDRRA2W50P0X200_1X2_600X760X510P" H 12700 8000 50  0001 L CNN
-F 3 "https://www.mouser.ca/datasheet/2/291/A2001-1532311.pdf" H 12700 7900 50  0001 L CNN
-F 4 "Headers & Wire Housings Thruhole right angle backlight connector" H 12700 7800 50  0001 L CNN "Description"
-F 5 "5.1" H 12700 7700 50  0001 L CNN "Height"
-F 6 "Newhaven Display" H 12700 7600 50  0001 L CNN "Manufacturer_Name"
-F 7 "A2001WR-2P Thru-hole" H 12700 7500 50  0001 L CNN "Manufacturer_Part_Number"
+F 0 "J4" H 12678 7896 50  0000 L CNN
+F 1 "PH-2V" H 12678 7805 50  0000 L CNN
+F 2 "SHDR2W52P0X200_1X2_600X460X630P" H 12700 8000 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811092130_BOOMELE-Boom-Precision-Elec-PH-2AK_C146082.pdf" H 12700 7900 50  0001 L CNN
+F 4 "Wire To Board / Wire To Wire Connector Through Hole RoHS" H 12700 7800 50  0001 L CNN "Description"
+F 5 "6.3" H 12700 7700 50  0001 L CNN "Height"
+F 6 "BOOMELE(Boom Precision Elec)" H 12700 7600 50  0001 L CNN "Manufacturer_Name"
+F 7 "PH-2AK" H 12700 7500 50  0001 L CNN "Manufacturer_Part_Number"
 F 8 "763-A2001WR2P" H 12700 7400 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Newhaven-Display/A2001WR-2P-Thru-hole?qs=gZXFycFWdAPcYjIK7pURng%3D%3D" H 12700 7300 50  0001 L CNN "Mouser Price/Stock"
-F 10 "C225207" H 12050 7900 50  0001 C CNN "LCSC"
+F 10 "C146082" H 12050 7900 50  0001 C CNN "LCSC"
 	1    12050 7900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_JLC:PH-2W J1
+L Connector_JLC:PH-2V J2
 U 1 1 6032DABE
 P 7050 8550
-F 0 "J1" H 7678 8546 50  0000 L CNN
-F 1 "PH-2W" H 7678 8455 50  0000 L CNN
-F 2 "SHDRRA2W50P0X200_1X2_600X760X510P" H 7700 8650 50  0001 L CNN
-F 3 "https://www.mouser.ca/datasheet/2/291/A2001-1532311.pdf" H 7700 8550 50  0001 L CNN
-F 4 "Headers & Wire Housings Thruhole right angle backlight connector" H 7700 8450 50  0001 L CNN "Description"
-F 5 "5.1" H 7700 8350 50  0001 L CNN "Height"
-F 6 "Newhaven Display" H 7700 8250 50  0001 L CNN "Manufacturer_Name"
-F 7 "A2001WR-2P Thru-hole" H 7700 8150 50  0001 L CNN "Manufacturer_Part_Number"
+F 0 "J2" H 7678 8546 50  0000 L CNN
+F 1 "PH-2V" H 7678 8455 50  0000 L CNN
+F 2 "SHDR2W52P0X200_1X2_600X460X630P" H 7700 8650 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811092130_BOOMELE-Boom-Precision-Elec-PH-2AK_C146082.pdf" H 7700 8550 50  0001 L CNN
+F 4 "Wire To Board / Wire To Wire Connector Through Hole RoHS" H 7700 8450 50  0001 L CNN "Description"
+F 5 "6.3" H 7700 8350 50  0001 L CNN "Height"
+F 6 "BOOMELE(Boom Precision Elec)" H 7700 8250 50  0001 L CNN "Manufacturer_Name"
+F 7 "PH-2AK" H 7700 8150 50  0001 L CNN "Manufacturer_Part_Number"
 F 8 "763-A2001WR2P" H 7700 8050 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Newhaven-Display/A2001WR-2P-Thru-hole?qs=gZXFycFWdAPcYjIK7pURng%3D%3D" H 7700 7950 50  0001 L CNN "Mouser Price/Stock"
-F 10 "C225207" H 7050 8550 50  0001 C CNN "LCSC"
+F 10 "C146082" H 7050 8550 50  0001 C CNN "LCSC"
 	1    7050 8550
 	1    0    0    -1  
 $EndComp
@@ -1309,21 +1305,83 @@ F 11 "C36376" H 11850 6800 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_JLC:PH-2W J4
+L Connector_JLC:PH-2V J1
 U 1 1 60369C79
 P 1800 8000
-F 0 "J4" H 2428 7996 50  0000 L CNN
-F 1 "PH-2W" H 2428 7905 50  0000 L CNN
-F 2 "SHDRRA2W50P0X200_1X2_600X760X510P" H 2450 8100 50  0001 L CNN
-F 3 "https://www.mouser.ca/datasheet/2/291/A2001-1532311.pdf" H 2450 8000 50  0001 L CNN
-F 4 "Headers & Wire Housings Thruhole right angle backlight connector" H 2450 7900 50  0001 L CNN "Description"
-F 5 "5.1" H 2450 7800 50  0001 L CNN "Height"
-F 6 "Newhaven Display" H 2450 7700 50  0001 L CNN "Manufacturer_Name"
-F 7 "A2001WR-2P Thru-hole" H 2450 7600 50  0001 L CNN "Manufacturer_Part_Number"
+F 0 "J1" H 2428 7996 50  0000 L CNN
+F 1 "PH-2V" H 2428 7905 50  0000 L CNN
+F 2 "SHDR2W52P0X200_1X2_600X460X630P" H 2450 8100 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811092130_BOOMELE-Boom-Precision-Elec-PH-2AK_C146082.pdf" H 2450 8000 50  0001 L CNN
+F 4 "Wire To Board / Wire To Wire Connector Through Hole RoHS" H 2450 7900 50  0001 L CNN "Description"
+F 5 "6.3" H 2450 7800 50  0001 L CNN "Height"
+F 6 "BOOMELE(Boom Precision Elec)" H 2450 7700 50  0001 L CNN "Manufacturer_Name"
+F 7 "PH-2AK" H 2450 7600 50  0001 L CNN "Manufacturer_Part_Number"
 F 8 "763-A2001WR2P" H 2450 7500 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Newhaven-Display/A2001WR-2P-Thru-hole?qs=gZXFycFWdAPcYjIK7pURng%3D%3D" H 2450 7400 50  0001 L CNN "Mouser Price/Stock"
-F 10 "C225207" H 1800 8000 50  0001 C CNN "LCSC"
+F 10 "C146082" H 1800 8000 50  0001 C CNN "LCSC"
 	1    1800 8000
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Misc_JLC:MLT-7525 LS1
+U 1 1 60289092
+P 2400 4600
+F 0 "LS1" H 3050 4865 50  0000 C CNN
+F 1 "MLT-7525" H 3050 4774 50  0000 C CNN
+F 2 "MLT7525" H 3550 4700 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Jiangsu-Huaneng-Elec-MLT-7525_C95299.pdf" H 3550 4600 50  0001 L CNN
+F 4 "Buzzers Magnetic NO 2700Hz 3.6V 2.5 ~ 4.5V 7.5mm x 7.5mm 7.5*7.5*2.5mm RoHS" H 3550 4500 50  0001 L CNN "Description"
+F 5 "2.5" H 3550 4400 50  0001 L CNN "Height"
+F 6 "Jiangsu Huaneng Elec" H 3550 4300 50  0001 L CNN "Manufacturer_Name"
+F 7 "MLT-7525" H 3550 4200 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C95299" H 2400 4600 50  0001 C CNN "LCSC"
+	1    2400 4600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 4500 2500 4500
+NoConn ~ 1100 4400
+NoConn ~ 1100 4500
+$Comp
+L Jumper:Jumper_2_Bridged JP1
+U 1 1 602C0074
+P 2500 4100
+F 0 "JP1" V 2450 3800 50  0000 C CNN
+F 1 "Jumper_2_Bridged" V 2550 3700 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 2500 4100 50  0001 C CNN
+F 3 "~" H 2500 4100 50  0001 C CNN
+	1    2500 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:Jumper_2_Bridged JP2
+U 1 1 60380F00
+P 2650 4300
+F 0 "JP2" V 2600 3850 50  0000 C CNN
+F 1 "Jumper_2_Bridged" V 2700 3750 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 2650 4300 50  0001 C CNN
+F 3 "~" H 2650 4300 50  0001 C CNN
+	1    2650 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 4300 2500 4500
+Wire Wire Line
+	2650 4500 2650 4600
+Wire Wire Line
+	2400 4600 2650 4600
+Wire Wire Line
+	2400 3800 2650 3800
+Wire Wire Line
+	2400 3700 2500 3700
+Wire Wire Line
+	2500 3900 2500 3700
+Connection ~ 2500 3700
+Wire Wire Line
+	2500 3700 2950 3700
+Wire Wire Line
+	2650 3800 2650 4100
+Connection ~ 2650 3800
+Wire Wire Line
+	2650 3800 2950 3800
 $EndSCHEMATC

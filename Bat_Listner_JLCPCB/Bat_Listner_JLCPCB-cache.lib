@@ -230,20 +230,18 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_JLC_PH-2W
+# Connector_JLC_PH-2V
 #
-DEF Connector_JLC_PH-2W J 0 30 Y Y 1 F N
+DEF Connector_JLC_PH-2V J 0 30 Y Y 1 F N
 F0 "J" 650 300 50 H V L CNN
-F1 "Connector_JLC_PH-2W" 650 200 50 H V L CNN
-F2 "SHDRRA2W50P0X200_1X2_600X760X510P" 650 100 50 H I L CNN
+F1 "Connector_JLC_PH-2V" 650 200 50 H V L CNN
+F2 "SHDR2W52P0X200_1X2_600X460X630P" 650 100 50 H I L CNN
 F3 "" 650 0 50 H I L CNN
-F4 "Headers & Wire Housings Thruhole right angle backlight connector" 650 -100 50 H I L CNN "Description"
-F5 "5.1" 650 -200 50 H I L CNN "Height"
-F6 "Newhaven Display" 650 -300 50 H I L CNN "Manufacturer_Name"
-F7 "A2001WR-2P Thru-hole" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "763-A2001WR2P" 650 -500 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.co.uk/ProductDetail/Newhaven-Display/A2001WR-2P-Thru-hole?qs=gZXFycFWdAPcYjIK7pURng%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
-F10 "C225207" 0 0 50 H I C CNN "LCSC"
+F4 "Wire To Board / Wire To Wire Connector Through Hole RoHS" 650 -100 50 H I L CNN "Description"
+F5 "6.3" 650 -200 50 H I L CNN "Height"
+F6 "BOOMELE(Boom Precision Elec)" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "PH-2AK" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "C146082" 0 0 50 H I C CNN "LCSC"
 DRAW
 P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
 X 1 1 0 0 200 R 50 50 0 0 P
@@ -373,6 +371,48 @@ P 3 0 1 10 -10 40 -30 40 -30 -40 N
 P 4 0 1 10 30 40 -30 0 30 -40 30 40 N
 X K 1 -100 0 70 R 50 50 1 1 P
 X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Jumper_Jumper_2_Bridged
+#
+DEF Jumper_Jumper_2_Bridged JP 0 0 Y N 1 F N
+F0 "JP" 0 75 50 H V C CNN
+F1 "Jumper_Jumper_2_Bridged" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jumper*
+ TestPoint*2Pads*
+ TestPoint*Bridge*
+$ENDFPLIST
+DRAW
+A 0 -70 100 1269 531 0 1 0 N -60 10 60 10
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+X A 1 -200 0 100 R 50 50 1 1 P
+X B 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Misc_JLC_MLT-7525
+#
+DEF Misc_JLC_MLT-7525 LS 0 30 Y Y 1 F N
+F0 "LS" 1150 300 50 H V L CNN
+F1 "Misc_JLC_MLT-7525" 1150 200 50 H V L CNN
+F2 "MLT7525" 1150 100 50 H I L CNN
+F3 "" 1150 0 50 H I L CNN
+F4 "Buzzers Magnetic NO 2700Hz 3.6V 2.5 ~ 4.5V 7.5mm x 7.5mm 7.5*7.5*2.5mm RoHS" 1150 -100 50 H I L CNN "Description"
+F5 "2.5" 1150 -200 50 H I L CNN "Height"
+F6 "Jiangsu Huaneng Elec" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MLT-7525" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "C95299" 0 0 50 H I C CNN "LCSC"
+DRAW
+P 5 0 1 6 200 100 1100 100 1100 -200 200 -200 200 100 N
+X +LEAD 1 0 0 200 R 50 50 0 0 P
+X -LEAD 2 0 -100 200 R 50 50 0 0 P
+X DUMMY_1 3 1300 -100 200 L 50 50 0 0 P
+X DUMMY_2 4 1300 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
